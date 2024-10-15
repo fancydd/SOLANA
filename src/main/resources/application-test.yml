@@ -1,0 +1,95 @@
+
+
+spring:
+  redis:
+    host:
+    port:
+    password:
+    database:
+    timeout:
+    lettuce:
+      pool:
+        max-active:
+        max-idle:
+        max-wait:
+        min-idle:
+
+  rabbitmq:
+    username:
+    password:
+    host:
+    port:
+    listener:
+      simple:
+        acknowledge-mode:
+        retry:
+          enabled:
+          max-attempts:
+        concurrency:
+        max-concurrency:
+
+  datasource:
+    password:
+    type:
+    driver-class-name:
+    url:
+    username:
+    druid:
+      # 初始连接数
+      initialSize:
+      # 最小连接池数量
+      minIdle:
+      # 最大连接池数量
+      maxActive:
+      # 配置获取连接等待超时的时间
+      maxWait:
+      # 配置连接超时时间
+      connectTimeout:
+      # 配置网络超时时间
+      socketTimeout:
+      # 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒
+      timeBetweenEvictionRunsMillis:
+      # 配置一个连接在池中最小生存的时间，单位是毫秒
+      minEvictableIdleTimeMillis:
+      # 配置一个连接在池中最大生存的时间，单位是毫秒
+      maxEvictableIdleTimeMillis:
+      # 配置检测连接是否有效
+      validationQuery:
+      testWhileIdle:
+      testOnBorrow:
+      testOnReturn:
+      webStatFilter:
+        enabled:
+      filter:
+        stat:
+          enabled:
+          # 慢SQL记录
+          log-slow-sql:
+          slow-sql-millis:
+          merge-sql:
+        wall:
+          config:
+            multi-statement-allow:
+
+custom:
+  redis:
+    address:
+    symbols:
+    lastblock:
+  rabbitmq:
+    queue:
+    exchange:
+
+
+  node:
+    url:
+    urls:
+      urls:
+        - https://solana-mainnet.g.alchemy.com/v2/alcht_d5PKgYbzy2LeHIedJT3OT4mkCFkZB2
+        - https://solana-mainnet.g.alchemy.com/v2/J_e_LmQKk2WvX6UrqqmvoaeipKYTFSJv
+        - https://solana-mainnet.g.alchemy.com/v2/FuSa8RrLJ2FV0q64y9mrBT2Bq9g1eJSR
+        - https://solana-mainnet.g.alchemy.com/v2/UYH0Us7Ukx2DLxEp1Qgljyd4ymljDj1x
+        - https://solana-mainnet.g.alchemy.com/v2/s3p9Ci8-7gQcWV5r-K7GjxHNLojUcW8f
+        - https://solana-mainnet.g.alchemy.com/v2/i2tcP8ywYzNPWFCC4VKr9Qv4ta8xxXD9
+        - https://solana-mainnet.g.alchemy.com/v2/v0EJq-9Gmj7DAgKzbaiMh25wIDluXVCc
+        - https://solana-mainnet.g.alchemy.com/v2/6sbWs-1zeuIcsXpkXzacrPxMxYt0Pcj1

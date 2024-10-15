@@ -1,0 +1,8 @@
+server:
+  port:
+
+spring:
+  application:
+    name: app
+  profiles:
+    active: prod
